@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31FE127137FA3BB684382FDE /* libPods-ZYImageCacheTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7205A452391EB49BE17B2713 /* libPods-ZYImageCacheTests.a */; };
+		BE1D395C611BE6600C8045B3 /* libPods-ZYImageCacheUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C74A29C93F329C1475D67A88 /* libPods-ZYImageCacheUITests.a */; };
+		BF5CD4A8222CCBAE0052D255 /* ZYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CD49C222CCBAD0052D255 /* ZYViewModel.m */; };
+		BF5CD4A9222CCBAE0052D255 /* ZYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CD49D222CCBAD0052D255 /* ZYModel.m */; };
+		BF5CD4AA222CCBAE0052D255 /* ZYWebImageDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CD4A0222CCBAD0052D255 /* ZYWebImageDownloadOperation.m */; };
+		BF5CD4AB222CCBAE0052D255 /* ZYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CD4A2222CCBAD0052D255 /* ZYWebImageManager.m */; };
+		BF5CD4AC222CCBAE0052D255 /* NSString+ZYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CD4A4222CCBAD0052D255 /* NSString+ZYAdd.m */; };
+		BF5CD4AD222CCBAE0052D255 /* UIImageView+ZYWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CD4A6222CCBAD0052D255 /* UIImageView+ZYWebCache.m */; };
+		BF5CD4AE222CCBAE0052D255 /* ZYCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CD4A7222CCBAE0052D255 /* ZYCollectionViewCell.m */; };
+		BF907A3E222CCA6B0056A71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF907A3D222CCA6B0056A71E /* AppDelegate.m */; };
+		BF907A41222CCA6B0056A71E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF907A40222CCA6B0056A71E /* ViewController.m */; };
+		BF907A44222CCA6B0056A71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF907A42222CCA6B0056A71E /* Main.storyboard */; };
+		BF907A46222CCA6D0056A71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF907A45222CCA6D0056A71E /* Assets.xcassets */; };
+		BF907A49222CCA6D0056A71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF907A47222CCA6D0056A71E /* LaunchScreen.storyboard */; };
+		BF907A4C222CCA6D0056A71E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF907A4B222CCA6D0056A71E /* main.m */; };
+		BF907A56222CCA6D0056A71E /* ZYImageCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF907A55222CCA6D0056A71E /* ZYImageCacheTests.m */; };
+		BF907A61222CCA6D0056A71E /* ZYImageCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF907A60222CCA6D0056A71E /* ZYImageCacheUITests.m */; };
+		E2352455C7C3068AAF2684EA /* libPods-ZYImageCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBF30E562D31D0A6EF89E2F /* libPods-ZYImageCache.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF907A52222CCA6D0056A71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF907A31222CCA6B0056A71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF907A38222CCA6B0056A71E;
+			remoteInfo = ZYImageCache;
+		};
+		BF907A5D222CCA6D0056A71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF907A31222CCA6B0056A71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF907A38222CCA6B0056A71E;
+			remoteInfo = ZYImageCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BBF30E562D31D0A6EF89E2F /* libPods-ZYImageCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYImageCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CC19232655E930FFABC041 /* Pods-ZYImageCacheTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYImageCacheTests.debug.xcconfig"; path = "Target Support Files/Pods-ZYImageCacheTests/Pods-ZYImageCacheTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FD0F9A574C4DA069672E306 /* Pods-ZYImageCacheUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYImageCacheUITests.release.xcconfig"; path = "Target Support Files/Pods-ZYImageCacheUITests/Pods-ZYImageCacheUITests.release.xcconfig"; sourceTree = "<group>"; };
+		484287AAC914420B1CE3BDB9 /* Pods-ZYImageCacheTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYImageCacheTests.release.xcconfig"; path = "Target Support Files/Pods-ZYImageCacheTests/Pods-ZYImageCacheTests.release.xcconfig"; sourceTree = "<group>"; };
+		7205A452391EB49BE17B2713 /* libPods-ZYImageCacheTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYImageCacheTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F887CCDE81FDB642B6A5DF /* Pods-ZYImageCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYImageCache.release.xcconfig"; path = "Target Support Files/Pods-ZYImageCache/Pods-ZYImageCache.release.xcconfig"; sourceTree = "<group>"; };
+		BF5CD499222CCBAD0052D255 /* ZYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYModel.h; sourceTree = "<group>"; };
+		BF5CD49A222CCBAD0052D255 /* ZYCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCollectionViewCell.h; sourceTree = "<group>"; };
+		BF5CD49B222CCBAD0052D255 /* ZYViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYViewModel.h; sourceTree = "<group>"; };
+		BF5CD49C222CCBAD0052D255 /* ZYViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYViewModel.m; sourceTree = "<group>"; };
+		BF5CD49D222CCBAD0052D255 /* ZYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYModel.m; sourceTree = "<group>"; };
+		BF5CD49F222CCBAD0052D255 /* ZYWebImageDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWebImageDownloadOperation.h; sourceTree = "<group>"; };
+		BF5CD4A0222CCBAD0052D255 /* ZYWebImageDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWebImageDownloadOperation.m; sourceTree = "<group>"; };
+		BF5CD4A1222CCBAD0052D255 /* ZYWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWebImageManager.h; sourceTree = "<group>"; };
+		BF5CD4A2222CCBAD0052D255 /* ZYWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWebImageManager.m; sourceTree = "<group>"; };
+		BF5CD4A3222CCBAD0052D255 /* NSString+ZYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZYAdd.h"; sourceTree = "<group>"; };
+		BF5CD4A4222CCBAD0052D255 /* NSString+ZYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZYAdd.m"; sourceTree = "<group>"; };
+		BF5CD4A5222CCBAD0052D255 /* UIImageView+ZYWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZYWebCache.h"; sourceTree = "<group>"; };
+		BF5CD4A6222CCBAD0052D255 /* UIImageView+ZYWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZYWebCache.m"; sourceTree = "<group>"; };
+		BF5CD4A7222CCBAE0052D255 /* ZYCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCollectionViewCell.m; sourceTree = "<group>"; };
+		BF907A39222CCA6B0056A71E /* ZYImageCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYImageCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF907A3C222CCA6B0056A71E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF907A3D222CCA6B0056A71E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF907A3F222CCA6B0056A71E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF907A40222CCA6B0056A71E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF907A43222CCA6B0056A71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF907A45222CCA6D0056A71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF907A48222CCA6D0056A71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF907A4A222CCA6D0056A71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF907A4B222CCA6D0056A71E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF907A51222CCA6D0056A71E /* ZYImageCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYImageCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF907A55222CCA6D0056A71E /* ZYImageCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYImageCacheTests.m; sourceTree = "<group>"; };
+		BF907A57222CCA6D0056A71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF907A5C222CCA6D0056A71E /* ZYImageCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYImageCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF907A60222CCA6D0056A71E /* ZYImageCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYImageCacheUITests.m; sourceTree = "<group>"; };
+		BF907A62222CCA6D0056A71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74A29C93F329C1475D67A88 /* libPods-ZYImageCacheUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYImageCacheUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92075789BF4EE31F2BF43A2 /* Pods-ZYImageCacheUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYImageCacheUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZYImageCacheUITests/Pods-ZYImageCacheUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F695FD6F40B2F4E150DE72BF /* Pods-ZYImageCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYImageCache.debug.xcconfig"; path = "Target Support Files/Pods-ZYImageCache/Pods-ZYImageCache.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF907A36222CCA6B0056A71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2352455C7C3068AAF2684EA /* libPods-ZYImageCache.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF907A4E222CCA6D0056A71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FE127137FA3BB684382FDE /* libPods-ZYImageCacheTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF907A59222CCA6D0056A71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1D395C611BE6600C8045B3 /* libPods-ZYImageCacheUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64E7023A29C5A7E87B848AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BBF30E562D31D0A6EF89E2F /* libPods-ZYImageCache.a */,
+				7205A452391EB49BE17B2713 /* libPods-ZYImageCacheTests.a */,
+				C74A29C93F329C1475D67A88 /* libPods-ZYImageCacheUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93A2E419ECF6A97BF4604921 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F695FD6F40B2F4E150DE72BF /* Pods-ZYImageCache.debug.xcconfig */,
+				A9F887CCDE81FDB642B6A5DF /* Pods-ZYImageCache.release.xcconfig */,
+				27CC19232655E930FFABC041 /* Pods-ZYImageCacheTests.debug.xcconfig */,
+				484287AAC914420B1CE3BDB9 /* Pods-ZYImageCacheTests.release.xcconfig */,
+				E92075789BF4EE31F2BF43A2 /* Pods-ZYImageCacheUITests.debug.xcconfig */,
+				3FD0F9A574C4DA069672E306 /* Pods-ZYImageCacheUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF5CD49E222CCBAD0052D255 /* ImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				BF5CD49F222CCBAD0052D255 /* ZYWebImageDownloadOperation.h */,
+				BF5CD4A0222CCBAD0052D255 /* ZYWebImageDownloadOperation.m */,
+				BF5CD4A1222CCBAD0052D255 /* ZYWebImageManager.h */,
+				BF5CD4A2222CCBAD0052D255 /* ZYWebImageManager.m */,
+				BF5CD4A3222CCBAD0052D255 /* NSString+ZYAdd.h */,
+				BF5CD4A4222CCBAD0052D255 /* NSString+ZYAdd.m */,
+				BF5CD4A5222CCBAD0052D255 /* UIImageView+ZYWebCache.h */,
+				BF5CD4A6222CCBAD0052D255 /* UIImageView+ZYWebCache.m */,
+			);
+			path = ImageCache;
+			sourceTree = "<group>";
+		};
+		BF907A30222CCA6B0056A71E = {
+			isa = PBXGroup;
+			children = (
+				BF907A3B222CCA6B0056A71E /* ZYImageCache */,
+				BF907A54222CCA6D0056A71E /* ZYImageCacheTests */,
+				BF907A5F222CCA6D0056A71E /* ZYImageCacheUITests */,
+				BF907A3A222CCA6B0056A71E /* Products */,
+				93A2E419ECF6A97BF4604921 /* Pods */,
+				64E7023A29C5A7E87B848AF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF907A3A222CCA6B0056A71E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF907A39222CCA6B0056A71E /* ZYImageCache.app */,
+				BF907A51222CCA6D0056A71E /* ZYImageCacheTests.xctest */,
+				BF907A5C222CCA6D0056A71E /* ZYImageCacheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF907A3B222CCA6B0056A71E /* ZYImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				BF5CD49E222CCBAD0052D255 /* ImageCache */,
+				BF5CD49A222CCBAD0052D255 /* ZYCollectionViewCell.h */,
+				BF5CD4A7222CCBAE0052D255 /* ZYCollectionViewCell.m */,
+				BF5CD499222CCBAD0052D255 /* ZYModel.h */,
+				BF5CD49D222CCBAD0052D255 /* ZYModel.m */,
+				BF5CD49B222CCBAD0052D255 /* ZYViewModel.h */,
+				BF5CD49C222CCBAD0052D255 /* ZYViewModel.m */,
+				BF907A3C222CCA6B0056A71E /* AppDelegate.h */,
+				BF907A3D222CCA6B0056A71E /* AppDelegate.m */,
+				BF907A3F222CCA6B0056A71E /* ViewController.h */,
+				BF907A40222CCA6B0056A71E /* ViewController.m */,
+				BF907A42222CCA6B0056A71E /* Main.storyboard */,
+				BF907A45222CCA6D0056A71E /* Assets.xcassets */,
+				BF907A47222CCA6D0056A71E /* LaunchScreen.storyboard */,
+				BF907A4A222CCA6D0056A71E /* Info.plist */,
+				BF907A4B222CCA6D0056A71E /* main.m */,
+			);
+			path = ZYImageCache;
+			sourceTree = "<group>";
+		};
+		BF907A54222CCA6D0056A71E /* ZYImageCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF907A55222CCA6D0056A71E /* ZYImageCacheTests.m */,
+				BF907A57222CCA6D0056A71E /* Info.plist */,
+			);
+			path = ZYImageCacheTests;
+			sourceTree = "<group>";
+		};
+		BF907A5F222CCA6D0056A71E /* ZYImageCacheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF907A60222CCA6D0056A71E /* ZYImageCacheUITests.m */,
+				BF907A62222CCA6D0056A71E /* Info.plist */,
+			);
+			path = ZYImageCacheUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF907A38222CCA6B0056A71E /* ZYImageCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF907A65222CCA6D0056A71E /* Build configuration list for PBXNativeTarget "ZYImageCache" */;
+			buildPhases = (
+				4620B922BC0C0324CE04A355 /* [CP] Check Pods Manifest.lock */,
+				BF907A35222CCA6B0056A71E /* Sources */,
+				BF907A36222CCA6B0056A71E /* Frameworks */,
+				BF907A37222CCA6B0056A71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYImageCache;
+			productName = ZYImageCache;
+			productReference = BF907A39222CCA6B0056A71E /* ZYImageCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF907A50222CCA6D0056A71E /* ZYImageCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF907A68222CCA6D0056A71E /* Build configuration list for PBXNativeTarget "ZYImageCacheTests" */;
+			buildPhases = (
+				DE11DA4D1E4522CAE523F2EE /* [CP] Check Pods Manifest.lock */,
+				BF907A4D222CCA6D0056A71E /* Sources */,
+				BF907A4E222CCA6D0056A71E /* Frameworks */,
+				BF907A4F222CCA6D0056A71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF907A53222CCA6D0056A71E /* PBXTargetDependency */,
+			);
+			name = ZYImageCacheTests;
+			productName = ZYImageCacheTests;
+			productReference = BF907A51222CCA6D0056A71E /* ZYImageCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF907A5B222CCA6D0056A71E /* ZYImageCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF907A6B222CCA6D0056A71E /* Build configuration list for PBXNativeTarget "ZYImageCacheUITests" */;
+			buildPhases = (
+				6D5AA873A390D23BA13E2C5B /* [CP] Check Pods Manifest.lock */,
+				BF907A58222CCA6D0056A71E /* Sources */,
+				BF907A59222CCA6D0056A71E /* Frameworks */,
+				BF907A5A222CCA6D0056A71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF907A5E222CCA6D0056A71E /* PBXTargetDependency */,
+			);
+			name = ZYImageCacheUITests;
+			productName = ZYImageCacheUITests;
+			productReference = BF907A5C222CCA6D0056A71E /* ZYImageCacheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF907A31222CCA6B0056A71E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ZhuYan;
+				TargetAttributes = {
+					BF907A38222CCA6B0056A71E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BF907A50222CCA6D0056A71E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF907A38222CCA6B0056A71E;
+					};
+					BF907A5B222CCA6D0056A71E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF907A38222CCA6B0056A71E;
+					};
+				};
+			};
+			buildConfigurationList = BF907A34222CCA6B0056A71E /* Build configuration list for PBXProject "ZYImageCache" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF907A30222CCA6B0056A71E;
+			productRefGroup = BF907A3A222CCA6B0056A71E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF907A38222CCA6B0056A71E /* ZYImageCache */,
+				BF907A50222CCA6D0056A71E /* ZYImageCacheTests */,
+				BF907A5B222CCA6D0056A71E /* ZYImageCacheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF907A37222CCA6B0056A71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF907A49222CCA6D0056A71E /* LaunchScreen.storyboard in Resources */,
+				BF907A46222CCA6D0056A71E /* Assets.xcassets in Resources */,
+				BF907A44222CCA6B0056A71E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF907A4F222CCA6D0056A71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF907A5A222CCA6D0056A71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4620B922BC0C0324CE04A355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYImageCache-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D5AA873A390D23BA13E2C5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYImageCacheUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE11DA4D1E4522CAE523F2EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYImageCacheTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF907A35222CCA6B0056A71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5CD4AA222CCBAE0052D255 /* ZYWebImageDownloadOperation.m in Sources */,
+				BF907A41222CCA6B0056A71E /* ViewController.m in Sources */,
+				BF907A4C222CCA6D0056A71E /* main.m in Sources */,
+				BF5CD4A8222CCBAE0052D255 /* ZYViewModel.m in Sources */,
+				BF5CD4AD222CCBAE0052D255 /* UIImageView+ZYWebCache.m in Sources */,
+				BF907A3E222CCA6B0056A71E /* AppDelegate.m in Sources */,
+				BF5CD4AE222CCBAE0052D255 /* ZYCollectionViewCell.m in Sources */,
+				BF5CD4AC222CCBAE0052D255 /* NSString+ZYAdd.m in Sources */,
+				BF5CD4AB222CCBAE0052D255 /* ZYWebImageManager.m in Sources */,
+				BF5CD4A9222CCBAE0052D255 /* ZYModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF907A4D222CCA6D0056A71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF907A56222CCA6D0056A71E /* ZYImageCacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF907A58222CCA6D0056A71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF907A61222CCA6D0056A71E /* ZYImageCacheUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF907A53222CCA6D0056A71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF907A38222CCA6B0056A71E /* ZYImageCache */;
+			targetProxy = BF907A52222CCA6D0056A71E /* PBXContainerItemProxy */;
+		};
+		BF907A5E222CCA6D0056A71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF907A38222CCA6B0056A71E /* ZYImageCache */;
+			targetProxy = BF907A5D222CCA6D0056A71E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF907A42222CCA6B0056A71E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF907A43222CCA6B0056A71E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF907A47222CCA6D0056A71E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF907A48222CCA6D0056A71E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF907A63222CCA6D0056A71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF907A64222CCA6D0056A71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF907A66222CCA6D0056A71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F695FD6F40B2F4E150DE72BF /* Pods-ZYImageCache.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYImageCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYImageCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF907A67222CCA6D0056A71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F887CCDE81FDB642B6A5DF /* Pods-ZYImageCache.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYImageCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYImageCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF907A69222CCA6D0056A71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CC19232655E930FFABC041 /* Pods-ZYImageCacheTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYImageCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYImageCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYImageCache.app/ZYImageCache";
+			};
+			name = Debug;
+		};
+		BF907A6A222CCA6D0056A71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484287AAC914420B1CE3BDB9 /* Pods-ZYImageCacheTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYImageCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYImageCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYImageCache.app/ZYImageCache";
+			};
+			name = Release;
+		};
+		BF907A6C222CCA6D0056A71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92075789BF4EE31F2BF43A2 /* Pods-ZYImageCacheUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYImageCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYImageCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYImageCache;
+			};
+			name = Debug;
+		};
+		BF907A6D222CCA6D0056A71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD0F9A574C4DA069672E306 /* Pods-ZYImageCacheUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYImageCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYImageCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYImageCache;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF907A34222CCA6B0056A71E /* Build configuration list for PBXProject "ZYImageCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF907A63222CCA6D0056A71E /* Debug */,
+				BF907A64222CCA6D0056A71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF907A65222CCA6D0056A71E /* Build configuration list for PBXNativeTarget "ZYImageCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF907A66222CCA6D0056A71E /* Debug */,
+				BF907A67222CCA6D0056A71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF907A68222CCA6D0056A71E /* Build configuration list for PBXNativeTarget "ZYImageCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF907A69222CCA6D0056A71E /* Debug */,
+				BF907A6A222CCA6D0056A71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF907A6B222CCA6D0056A71E /* Build configuration list for PBXNativeTarget "ZYImageCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF907A6C222CCA6D0056A71E /* Debug */,
+				BF907A6D222CCA6D0056A71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF907A31222CCA6B0056A71E /* Project object */;
+}
